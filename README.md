@@ -5,7 +5,8 @@
 - **CCID:** 1865258
 
 ## References and Resources
-List any resources used here, or simply put `N/A` if not applicable.
+Android Basics with Compose Course: https://developer.android.com/courses/android-basics-compose/course?hl=en
+
 
 ## Verbal Collaboration
 List students' names and CCIDs here, or simply put `N/A` if not applicable. 
