@@ -9,4 +9,4 @@ Android Basics with Compose Course: https://developer.android.com/courses/androi
 
 
 ## Verbal Collaboration
-List students' names and CCIDs here, or simply put `N/A` if not applicable. 
+N/A
