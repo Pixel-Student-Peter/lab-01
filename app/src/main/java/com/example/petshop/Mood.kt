@@ -1,4 +1,5 @@
 package com.example.petshop
 
-class Mood {
+abstract class Mood(date: String) {
+    abstract fun currentMood(): String
 }

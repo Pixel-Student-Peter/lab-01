@@ -1,4 +1,10 @@
 package com.example.petshop
 
-class Cat {
+class Cat(name: String, age: Int): Pet(name, age), Pettable {
+    override fun speak(): String {
+        return "meow"
+    }
+    override fun pet() {
+        println("The cat $name is being pet")
+    }
 }
