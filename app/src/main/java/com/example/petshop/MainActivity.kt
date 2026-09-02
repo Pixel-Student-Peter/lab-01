@@ -17,11 +17,14 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        val cat = Cat("Coco", 6)
-        val dog = Dog("mochi", 6)
+        val cat = Cat("String", 6)
+        val dog = Dog("Nori", 6)
         val scorpion = Scorpion("Stinger", 32)
 
-        val pets = mutableListOf(cat, dog, scorpion)
+        val pets = mutableListOf<Pet>()
+        pets.add(cat)
+        pets.add(dog)
+        pets.add(scorpion)
         val pettable = mutableListOf(cat, dog, scorpion)
     }
 }
